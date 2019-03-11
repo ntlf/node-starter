@@ -7,7 +7,7 @@
     "start": "nodemon -w src -e '.*' --exec \"babel-node --extensions '.js,.ts' src\"",
     "build": "babel --extensions '.js,.ts' src -d dist",
     "lint": "eslint --ext '.js,.ts' src",
-    "test": "jest"
+    "test": "jest src"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
